@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
 
+import ButtonCpmponent from "./components/functional/button/button-compoenent";
+import ImageComponent from "./components/functional/image/image-components";
+import OrderedList from "./components/functional/list/ordered/ordered-list";
+import UnorderedList from "./components/functional/list/un-ordered/un-order-list";
+import Usestate from "./components/Hooks/usestate";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <Usestate/>
+    
     </div>
   );
 }
